@@ -336,7 +336,7 @@
                     font-size: 2.3rem;
                 }
                 
-                .lol {
+                .asside {
                     position: relative;
                 }
                 
@@ -525,78 +525,3 @@
                         gap: 90px 6em;
                     }
                 }
-                /*  @media only screen and (max-width: 768px) {
-            .nav-menu {
-                position: fixed;
-                left: -100%;
-                top: 5rem;
-                flex-direction: column;
-                background-color: #fff;
-                width: 100%;
-                border-radius: 10px;
-                text-align: center;
-                transition: 0.3s;
-                box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
-            }
-            .nav-menu.active {
-                left: 0;
-            }
-            .nav-item {
-                margin: 2.5rem 0;
-            }
-            .hamburger {
-                display: block;
-                cursor: pointer;
-            }
-        }
-        
-        @media only screen and (min-width: 768px) and (max-device-width: 480px) {
-            h1 {
-                font-size: 1em
-            }
-            p {
-                font-size: 0.3em;
-            }
-        }
-        
-        @media (min-width: 200px) {
-            .title-work {
-                font-size: 23px;
-            }
-            .parag-work {
-                font-size: 15px;
-            }
-        }
-        
-        @media (min-width: 200px) {
-            .parent {
-                display: flex;
-                flex-direction: column;
-            }
-            .parent img {
-                width: 45rem;
-            }
-            .e-mail-me {
-                line-height: 4px;
-            }
-            .parag-colaboration {
-                font-size: 23px;
-            }
-            .logo-colaboration img {
-                width: 32%;
-            }
-            .container-contact {
-                flex-direction: column;
-                position: absolute;
-                top: -10rem;
-            }
-            .container-contact h1 {
-                font-size: 20px;
-            }
-            .container-contact p {
-                font-size: 10px;
-            }
-            .lol {
-                position: relative;
-            }
-        }*/
