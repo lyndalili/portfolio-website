@@ -231,6 +231,11 @@
                     gap: 10px 2em;
                 }
                 
+                .parent img {
+                    cursor: pointer;
+                    background: rgb(0, 0, 1);
+                }
+                
                 .parent div:hover::after {
                     background: rgba(0, 0, 0.8);
                 }
@@ -445,7 +450,7 @@
                 @media only screen and (max-width: 768px) {
                     .nav-menu {
                         position: fixed;
-                        top: 5rem;
+                        left: -1500px;
                         flex-direction: column;
                         background-color: #E6ECF8;
                         width: 100%;
