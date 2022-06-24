@@ -446,14 +446,13 @@
             
             .box:hover .survol {
                 opacity: 10;
-                /*le texte passe à opacity 1 et devient visible*/
                 transition: opacity 0.9s;
                 background: #141c3a;
             }
             
             .box:hover img {
                 transition: .5s ease;
-                background-color: #141c3a;
+                opacity: .11;
             }
             
             .survol {
@@ -470,7 +469,6 @@
                 text-align: center;
                 z-index: 10;
                 opacity: 0;
-                /*opacity 0 car le texte ne doit pas être affiché avant le hover*/
             }
             
             .box:hover .survol-p {
@@ -479,9 +477,9 @@
             }
             
             .survol-p {
-                color: #E6ECF8;
+                color: #141c3a;
                 font-size: 1.7rem;
-                font-weight: 400;
+                font-weight: 600;
                 position: absolute;
                 left: 25%;
                 bottom: 55%;
