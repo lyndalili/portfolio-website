@@ -576,6 +576,10 @@
                 background-color: #FFBABA;
             }
             
+            .resp-div2 {
+                padding-top: 170px;
+            }
+            
             @media only screen and (max-width: 768px) {
                 .nav-menu {
                     position: fixed;
